@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/cart/main",
+    "pages/mycenter/main",
+    "pages/list/main",
+    "pages/details/main",
+    "pages/login/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "轻度书城",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/logo/home.png",
+      "selectedIconPath": "static/logo/homeFull.png"
+    }, {
+      "text": "购物车",
+      "pagePath": "pages/cart/main",
+      "iconPath": "static/logo/cart.png",
+      "selectedIconPath": "static/logo/cartFull.png"
+      
+    },
+    {
+      "text": "我的当当",
+      "pagePath": "pages/mycenter/main",
+      "iconPath": "static/logo/index.png",
+      "selectedIconPath": "static/logo/indexFull.png"
+      
+    }],
+
+    
+    "position": "bottom"
+  }
+}
